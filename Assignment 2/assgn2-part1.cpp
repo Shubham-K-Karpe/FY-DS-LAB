@@ -2,17 +2,17 @@
 using namespace std;
 int main()
 {
- int rno[5];
- cout << "Enter Roll No. of 5 Students:"<<endl;
- for (int i = 0; i < 5; i++)
-  {
-   cout<<"Student "<< i+1 <<" :";
-   cin >> rno[i];
-  }
- cout << "\nRoll No. of students: "<<endl;
-    for(int i=0;i<5;i++)
-        {
-        cout<<rno[i]<<endl;
-        }
+    int rno[5];
+    cout << "Enter Roll No. of 5 Students:" << endl;
+    for (int i = 0; i < 5; i++)
+    {
+        cout << "Student " << i + 1 << " :";
+        cin >> rno[i];
+    }
+    cout << "\nRoll No. of students: " << endl;
+    for (int i = 0; i < 5; i++)
+    {
+        cout << rno[i] << endl;
+    }
     return 0;
 }
