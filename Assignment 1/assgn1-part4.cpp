@@ -20,12 +20,15 @@ int main()
 
         if (choice == 1)
         {
-            if (n < 10) {
+            if (n < 10)
+            {
                 cout << "Enter Book ID: ";
                 cin >> book[n];
                 n++;
                 cout << "Book Added!";
-            } else {
+            }
+            else
+            {
                 cout << "Library full!";
             }
         }
